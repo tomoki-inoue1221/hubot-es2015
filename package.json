@@ -22,10 +22,6 @@
   "engines": {
     "node": "10.15.1"
   },
-  "scripts": {
-    "build": "babel src --out-dir build",
-    "postinstall": "node_modules/.bin/babel src --presets es2015 --out-dir compiled"
-  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
