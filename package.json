@@ -23,6 +23,7 @@
     "node": "10.15.1"
   },
   "scripts": {
+    "build": "babel src --out-dir build",
     "postinstall": "node_modules/.bin/babel src --presets es2015 --out-dir compiled"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@ import request from 'request';
 
 module.exports = (robot) => {
   robot.respond(/.*(random|抽選|選ぶ).*/, (msg) => {
-    const url = 'https://slack.com/api/channels.list?token=' + process.env.HUBOT_SLACK_TOKEN;
+    const url = 'https://slack.com/api/channels.list?token=xoxb-798159158694-872178173682-kP1Rq8yT9BK5Jl6pA4ACphvT';
 
     // チャンネル一覧を取得
     request(url, (err, res, body) => {
